@@ -4,6 +4,11 @@
 
 **Tools:** SAS Visual Analytics / SAS Viya
 
+## Validation update - October 22, 2026
+
+The 3-page PDF parsed successfully, a sampled dashboard page was rendered and reviewed, and repository file links were checked. The original export bytes are preserved. Native SAS interactions, report calculations, filters and forecasts were not rerun. Editable SAS report definitions are absent; projects without source tables remain static case studies. This is an asset/evidence audit, not certification of a functioning native dashboard.
+
+[Aggregate validation record](Reports/validation_results.json). 
 ## Problem
 Explore customer distribution and retail activity in a Europe-filtered SAS dashboard.
 

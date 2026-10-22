@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-22",
+  "scope": "Static export and repository asset audit; no native SAS runtime or source-data reconstruction.",
+  "pdf": "Reports/Report Links on Apr 25, 2026.pdf",
+  "pdf_sha256": "ac0ed7c4e0ed50d59ea7110f725b6ddcae935bfa7f4cc355142bfdd3a16c9a4f",
+  "pages": 3,
+  "text_extraction_succeeded": true,
+  "native_sas_run": false,
+  "native_report_definition_bundled": false,
+  "raw_source_tables_bundled": false,
+  "dashboard_page_rendered_for_review": 2,
+  "sample_dashboard_page_visually_reviewed": true
+}
