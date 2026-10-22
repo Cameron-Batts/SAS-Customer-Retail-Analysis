@@ -1,136 +1,36 @@
-# SAS Visual Analytics: Customer Analysis Dashboard
+# Customer and Retail Geographic Analysis
 
-**Tools:** SAS Visual Analytics · SAS Studio · Business Intelligence · Dashboard Reporting · Geographic Visualization
+**Author:** Cameron Batts
 
----
+**Tools:** SAS Visual Analytics / SAS Viya
 
-# Business Problem
+## Problem
+Explore customer distribution and retail activity in a Europe-filtered SAS dashboard.
 
-Organizations with geographically distributed customers require centralized reporting to better understand customer concentration, sales activity, and regional order behavior.
+## Approach
+Review the customer bubble map, retail KPI and PDF filter appendix. The appendix explicitly applies Continent Name = Europe to the customer map and order object.
 
-This project uses SAS Visual Analytics to build an interactive customer analysis dashboard focused on geographic customer distribution, retail sales performance, and order activity across European markets.
+## Findings
+The export shows a Retail Sale KPI of 396K. No currency, period or aggregation definition is supplied. The 4 to 8.3K values belong to the customer-map size legend; 8.3K is not a verified total customer count. The Number of Orders object has no readable value in the PDF.
 
-The objective was to improve customer visibility and support business intelligence reporting through interactive dashboard analytics.
+## Limitations
+Source tables and the editable SAS report are absent. Country totals, sales units and filter propagation to the retail KPI cannot be recomputed. The map supports a Europe-filtered view, not a conclusion that Europe dominates worldwide customers. Interactive controls are visible but untested.
 
----
+## Data and provenance
+The earlier documentation called this real operational data, but no source table, license or provenance evidence is included. Treat it as an illustrative SAS dashboard with unverified provenance.
 
-# Project Overview
+## Verification
+PDF pages and repository assets reviewed; source data and native SAS interactions are unavailable.
 
-The dashboard provides:
-- geographic customer distribution analysis
-- customer concentration mapping
-- retail sales KPI reporting
-- order activity visualization
-- interactive regional filtering
+## View the project
+- [Analysis report](Reports/sas_customer_retail.html)
+- [Portfolio analysis](https://cameron-batts.github.io/sas_customer_retail.html)
+- [Original PDF export](Reports/Report%20Links%20on%20Apr%2025%2C%202026.pdf)
 
-The dashboard was designed to help identify:
-- regions with high customer concentration
-- geographic sales distribution patterns
-- customer activity trends
-- order volume by region
+## Dashboard previews
+![Customer Analysis](Images/Customer%20Analysis.png)
 
----
+## Reproduce and inspect
+Open the HTML report and original PDF. Rebuilding the dashboard requires the original SAS report definition, source tables and measure definitions; those files are not included.
 
-# Tools & Technologies
-
-- SAS Visual Analytics
-- SAS Studio
-- SAS Reporting
-- Geographic Visualization
-- Business Intelligence Dashboards
-- Interactive Filtering
-
----
-
-# Analytical Focus Areas
-
-- Customer analytics
-- Geographic reporting
-- Retail sales analysis
-- Order activity monitoring
-- Dashboard visualization
-- Interactive business intelligence
-- Regional customer segmentation
-
----
-
-# Dashboard Components
-
-## Geographic Customer Distribution
-
-The dashboard uses an interactive world map visualization to display customer concentration across European regions.
-
-Bubble sizing represents:
-- number of customers
-- customer density by geographic area
-
----
-
-# Retail Sales KPI Reporting
-
-The dashboard includes high-level KPI metrics focused on:
-- total retail sales
-- customer activity
-- order reporting
-
-Key metric highlighted:
-- Retail Sales: **396K**
-
----
-
-# Interactive Filtering
-
-Dashboard filters allow users to dynamically analyze:
-- customer concentration
-- order activity
-- regional performance
-
-Example filters include:
-- continent-level segmentation
-- European customer analysis
-
----
-
-# Dashboard Visualization
-
-![Customer Analysis Dashboard](./Images/Customer-Analysis.png)
-
----
-
-# Key Insights
-
-- Customer activity is geographically concentrated within European markets.
-- Interactive geographic dashboards improve visibility into customer distribution patterns.
-- Retail sales KPIs can be monitored alongside customer concentration metrics for operational reporting.
-- Geographic visualization improves accessibility and business intelligence storytelling.
-
----
-
-# Repository Structure
-
-```text
-data/        -> project data information
-Images/      -> dashboard screenshots and visual outputs
-reports/     -> exported PDF dashboard reports
-README.md    -> project overview and documentation
-```
-
----
-
-# Files
-
-| File | Description |
-|------|-------------|
-| `reports/Report-Links-on-Apr-25-2026.pdf` | Exported SAS Visual Analytics customer analysis report |
-| `Images/Customer-Analysis.png` | Dashboard visualization screenshot |
-| `data/README.md` | Information regarding project data source and usage |
-
----
-
-# Author
-
-Cameron Batts
-
-GitHub: https://github.com/Cameron-Batts
-
-Portfolio: https://cameron-batts.github.io
+The static exports are preserved as historical evidence. Their source captions and map attribution remain intact.

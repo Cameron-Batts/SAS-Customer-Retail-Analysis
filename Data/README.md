@@ -1,5 +1,5 @@
-# Data
+# Data and reproducibility
 
-This project uses real operational business data accessed through the SAS repository and SAS Visual Analytics environment.
+The earlier documentation called this real operational data, but no source table, license or provenance evidence is included. Treat it as an illustrative SAS dashboard with unverified provenance.
 
-The data was used to analyze customer distribution, retail sales activity, geographic concentration, and order behavior through interactive dashboard reporting.
+Source tables and the editable SAS report are absent. Country totals, sales units and filter propagation to the retail KPI cannot be recomputed. The map supports a Europe-filtered view, not a conclusion that Europe dominates worldwide customers. Interactive controls are visible but untested.
